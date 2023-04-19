@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* nav{
+    width: 100%;
+}
+
+nav>ul>li{
+    display: inline-block;
+    padding-right: 3%;
+}
+
+a{
+    text-decoration: none;
+    color: #9a9a9a;
+} */
+
+body{
+    overflow-x:hidden;
+    min-width: 400px;
+}
+
+.tarjeta {
+    display: inline-block;
+}
+
+footer{
+    background: black !important;
+    color: white !important;
+    text-align: center;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+    z-index: 1000;
+    min-width: 526.4px;
+}
+
+thead {
+    background: teal;
+    color: white;
+}
+
+#table-digimon_filter, #table-digimon_paginate{
+    float: right;
+    padding: 10px 0px 10px 10px;
+}
+
+
+
+@media(max-width:880px){
+    #table-digimon_info{
+        display: none;
+    }
+}
